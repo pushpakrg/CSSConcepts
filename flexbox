@@ -1,0 +1,10 @@
+flex container/parent properties
+  display: flex;
+  flex-direction: row | row-reverse | column | column-reverse;
+  flex-wrap: nowrap | wrap | wrap-reverse;
+  flex-flow: row wrap; /* Remember this is the same as: flex-direction: row; flex-wrap: wrap; */
+  justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly | start | end | left | right ... + safe | unsafe;
+  
+flex item/children properties
+  order: <integer>; /* default is 0 */
+  flex-grow: <number>; /* default 0 */
